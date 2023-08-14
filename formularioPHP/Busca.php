@@ -47,8 +47,8 @@
                 <td width="10%"><?php echo $vetor['senha']; ?></td>
                 <td width="10%"><?php echo $vetor['sexo']; ?></td>
                 <td width="10%"><?php echo $vetor['estado']; ?></td>
-                <td width="10%">Alterar</td>
-                <td width="10%">Excluir</td>
+                <th width="10%"><a href="alterar.php?cd=<?php echo $vetor['cod']; ?>">Alterar</a></th>
+                <th width="10%"><a href="excluir.php?cd=<?php echo $vetor['cod']; ?>">Excluir</a></th>
             </tr>
         <?php } ?>
         </table>
